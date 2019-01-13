@@ -1,0 +1,111 @@
+body{
+	margin: 0;
+	background-color: rgb(57,62,70);
+}
+h1{
+	color : white;
+	text-align: center;
+}
+#mid_box{
+	visibility: hidden;
+	position: absolute;
+	background-color: rgba(105,105,105,0.9);
+	top:0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+#cross{
+	position: absolute;
+	visibility:hidden;
+	margin-top: 1%;
+	right: 1%;
+	width:35px;
+	height: 35px;
+}
+#mid_box ul{
+	position: relative;
+	top: 30%;
+	list-style-type: none;
+	text-align: center;
+}
+#mid_box ul li a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 50px;
+}
+#header{
+	width: 100%;
+	position: absolute;
+	height: 10%;
+}
+#left_box{
+	position: absolute;
+	top: 10%;
+	width: 30%;
+	height: 90%;
+	background-color: rgb(51,51,51);
+}
+#test{
+	position: absolute;
+	margin-top: 1%;
+	right:1%;
+	width:35px;
+	height: 35px;
+}
+
+#left_box p {
+	margin-top: 5%;
+	color: white;
+	text-align: center;	
+	font-size: 25px;
+}
+#content{
+	top: 11%;
+	position: absolute;
+	left: 31%;
+	width: 68%;
+	height: 88%;
+	background-color: rgb(51,51,51); 
+}
+span{
+	color: rgb(0,173,181);
+}
+#list{
+	list-style-type: none;
+	text-align: center;
+	color:white;
+	font-size: 20px;
+}
+#list li ul{
+	color: red;
+	list-style-type: none;
+}
+.subMenu{
+	display: none;
+}
+ul li:hover .subMenu{
+	display: block;
+	position: relative;
+}
+#list a{
+	margin:; 0;
+	text-decoration: none;
+	color: white;
+}
+#dynamic_content{
+	position: relative;
+	width: 100%;
+	height: 90%;
+}
+
+.list_normal{
+	top: 25%;
+	font-size: 20px;
+	color:white;
+	position: relative;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+}
